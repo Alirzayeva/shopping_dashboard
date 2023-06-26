@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  background-color: rgb(12, 16, 28);
+  height: 60px;
+
+  .container {
+    display: flex;
+    .logo {
+      width: 20%;
+      margin: 15px;
+      a {
+        color: #747373;
+        font-size: 22px;
+        font-weight: 550;
+        cursor: pointer;
+        &:hover {
+          color: rgb(218, 26, 26);
+        }
+      }
+    }
+    .navBar {
+      width: 70%;
+      display: flex;
+      justify-content: center;
+      .navList {
+        display: flex;
+        margin: 20px;
+        text-align: center;
+        gap: 65px;
+        a {
+          color: #fff;
+          font-size: 18px;
+          font-weight: 500;
+          &:hover {
+            color: olive;
+            font-size: 22px;
+          }
+          &.active {
+            color: red;
+          }
+        }
+      }
+    }
+
+}
+}
